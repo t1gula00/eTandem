@@ -32,7 +32,7 @@
  `$ meteor npm install --save simpl-schema`
  
  *  Plugins
- `$ meteor add less meteortesting:mocha johanbrook:publication-collector  dburles:collection-helpers matb33:collection-hooks reywood:publish-composite iron:router@1.0.0 zimme:active-route yasinuslu:blaze-meta alanning:roles fortawesome:fontawesome useraccounts:core momentjs:moment underscore underscorestring:underscore.string cunneen:mailgun useraccounts:iron-routing accounts-password check ejson dburles:factory anti:fake aldeed:autoform msavin:mongol aldeed:collection2 cmather:handlebars-server@0.2.0 useraccounts:bootstrap cfs:standard-packages anychart:anychart`
+ `$ meteor add less meteortesting:mocha johanbrook:publication-collector  dburles:collection-helpers matb33:collection-hooks reywood:publish-composite iron:router@1.0.0 zimme:active-route yasinuslu:blaze-meta alanning:roles fortawesome:fontawesome useraccounts:core momentjs:moment underscore underscorestring:underscore.string cunneen:mailgun useraccounts:iron-routing accounts-password check ejson dburles:factory anti:fake aldeed:autoform msavin:mongol aldeed:collection2 cmather:handlebars-server@0.2.0 useraccounts:bootstrap cfs:standard-packages anychart:anychart tap:i18n aldeed:simple-schema accounts-ui session blaze-html-templates react-template-helper cfs:gridfs coffeescript`
  
  * Start
  `$ meteor` 
