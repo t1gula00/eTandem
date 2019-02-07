@@ -1,0 +1,24 @@
+{
+  "production" : {
+
+  },
+  "development" : {
+
+  },
+  "public" : {
+    "meta" : {
+      "title" : "Tandem Kivako Test",
+      "lang" : "en",
+      "languages" : [
+        {
+          "code" : "fi",
+          "text" : "Suomi"
+        },
+        {
+          "code" : "en",
+          "text" : "English"
+        }
+      ]
+    }
+  }
+}

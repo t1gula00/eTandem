@@ -1,0 +1,56 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base@1.4.0                               # Packages every Meteor app needs to have
+mobile-experience@1.0.5                         # Packages for a great mobile UX
+mongo@1.6.0                                     # The database Meteor supports right now
+reactive-var@1.0.11                             # Reactive variable for tracker
+tracker@1.2.0                                   # Meteor's client-side reactive programming library
+
+standard-minifier-css@1.5.2                     # CSS minifier run for production mode
+standard-minifier-js@2.4.0                      # JS minifier run for production mode
+es5-shim@4.8.0                                  # ECMAScript 5 compatibility for older browsers
+ecmascript                                      # Enable ECMAScript2015+ syntax in app code
+shell-server@0.4.0                              # Server-side component of the `meteor shell` command
+
+less                                            # Leaner CSS language
+
+meteortesting:mocha                             # A package for writing and running your meteor app and package tests with mocha - https://guide.meteor.com/testing.html
+johanbrook:publication-collector                # Test a Meteor publication by collecting its output
+dburles:collection-helpers                      # Helper Functions for Collections - https://github.com/dburles/meteor-collection-helpers
+matb33:collection-hooks                         # Collection Hook Events - https://github.com/matb33/meteor-collection-hooks
+reywood:publish-composite                       # Publishing Related Documents - https://github.com/englue/meteor-publish-composite
+iron:router@1.0.0                               # Routing - http://iron-meteor.github.io/iron-router/
+zimme:active-route                              # Route Helpers - https://github.com/meteor-activeroute/legacy
+yasinuslu:blaze-meta                            # Meta tags - https://github.com/yasinuslu/blaze-meta
+alanning:roles                                  # User Roles - https://github.com/alanning/meteor-roles
+fortawesome:fontawesome                         # Fonts - https://libraries.io/meteor/fortawesome:fontawesome
+useraccounts:core                               # Accounts - https://github.com/meteor-useraccounts/core
+momentjs:moment                                 # Dates and Time - https://momentjs.com/docs/
+underscore                                      # Helpers - https://underscorejs.org/
+underscorestring:underscore.string              # String Helpers - https://github.com/epeli/underscore.string
+cunneen:mailgun                                 # Mail support - https://github.com/cunneen/meteor-mailgun
+useraccounts:iron-routing                       # Routing for Accounts - https://github.com/meteor-useraccounts/iron-routing
+accounts-password                               # Passwords - https://docs.meteor.com/api/passwords.html
+check                                           # Simple Checks - https://docs.meteor.com/api/check.html
+ejson                                           # Json Types Extension - https://docs.meteor.com/api/ejson.html
+dburles:factory                                 # Testing and Generating Data - https://github.com/versolearning/meteor-factory
+anti:fake                                       # Generate Random Fake Data - https://github.com/anticoders/fake-words
+aldeed:autoform                                 # UI Components - https://github.com/aldeed/meteor-autoform
+msavin:mongol                                   # Dev Tool - https://github.com/aldeed/meteor-autoform
+aldeed:collection2                              # Schema SUpport with Collections - https://github.com/aldeed/meteor-collection2
+cmather:handlebars-server@0.2.0                 # Handlebars - https://github.com/cmather/meteor-handlebars-server
+useraccounts:bootstrap                          # Accounts - https://github.com/meteor-useraccounts/bootstrap
+cfs:standard-packages                           # Standart Filesystem Support - https://github.com/CollectionFS/Meteor-CollectionFS
+anychart:anychart                               # Data Visualisation - https://www.anychart.com/technical-integrations/samples/meteor-charts/
+tap:i18n                                        # For Internationalisation https://github.com/TAPevents/tap-i18n
+aldeed:simple-schema                            # Some Dependecy package - https://github.com/aldeed/meteor-simple-schema
+accounts-ui                                     # For Accounts - https://docs.meteor.com/packages/accounts-ui.html
+session                                         # Session Variable - https://docs.meteor.com/api/session.html
+blaze-html-templates                            # For Blaze Templating - https://github.com/meteor/blaze/tree/master/packages/blaze-html-templates
+react-template-helper                           # React Support - https://github.com/meteor/react-packages/tree/devel/packages/react-template-helper
+cfs:gridfs                                      # File System Extension to Standart FS - https://github.com/CollectionFS/Meteor-CollectionFS/tree/master/packages/gridfs
+coffeescript                                    # For fancy JS

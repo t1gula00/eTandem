@@ -1,0 +1,2 @@
+# eTandem Kivako
+KIVAKO (http://www.haaga-helia.fi/fi/node/5239/kivako-kielivarannon-vahvistaminen-korkeakouluissa)  is a development project funded by the Ministry of Education for developing language teaching in languages that are less frequently studied in Finnish universities. The project is coordinated by Haaga-Helia, and Tampere Universities Language Centres are participating in the project. 
