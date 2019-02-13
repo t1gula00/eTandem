@@ -12,7 +12,6 @@ Meteor.startup(function () {
     //         return "Test";
     //     }
     // });
-    //
     // if (MatchMakeItems.find({}).count() === 0) {
     //     _(5).times(function (n) {
     //         Factory.create('matchMakeItems');
