@@ -46,11 +46,13 @@ cmather:handlebars-server@0.2.0                 # Handlebars - https://github.co
 useraccounts:bootstrap                          # Accounts - https://github.com/meteor-useraccounts/bootstrap
 cfs:standard-packages                           # Standart Filesystem Support - https://github.com/CollectionFS/Meteor-CollectionFS
 anychart:anychart                               # Data Visualisation - https://www.anychart.com/technical-integrations/samples/meteor-charts/
-tap:i18n                                        # For Internationalisation https://github.com/TAPevents/tap-i18n
 aldeed:simple-schema                            # Some Dependecy package - https://github.com/aldeed/meteor-simple-schema
 accounts-ui                                     # For Accounts - https://docs.meteor.com/packages/accounts-ui.html
-session                                         # Session Variable - https://docs.meteor.com/api/session.html
 blaze-html-templates                            # For Blaze Templating - https://github.com/meteor/blaze/tree/master/packages/blaze-html-templates
 react-template-helper                           # React Support - https://github.com/meteor/react-packages/tree/devel/packages/react-template-helper
 cfs:gridfs                                      # File System Extension to Standart FS - https://github.com/CollectionFS/Meteor-CollectionFS/tree/master/packages/gridfs
 coffeescript                                    # For fancy JS
+universe:i18n
+universe:i18n-blaze
+cultofcoders:persistent-session
+session

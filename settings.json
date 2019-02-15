@@ -8,17 +8,20 @@
   "public" : {
     "meta" : {
       "title" : "Tandem Kivako Test",
-      "lang" : "en",
+      "lang" : "en-US",
       "languages" : [
         {
-          "code" : "fi",
-          "text" : "Suomi"
+          "name" : "English",
+          "code" : "en-US"
         },
         {
-          "code" : "en",
-          "text" : "English"
+          "name" : "Suomi",
+          "code" : "fi-FI"
         }
       ]
+    },
+    "persistent_session": {
+      "default_method": "persistent"
     }
   }
 }

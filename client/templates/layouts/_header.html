@@ -44,18 +44,9 @@
                         <a href="#" class="dropdown-toggle btn btn-secondary" data-toggle="dropdown">
                             <i class="fa fa-language"></i><i class="fa fa-caret-down"></i>
                         </a>
-                        <ul class="dropdown-menu" role="menu">
-                            {{#each languages}}
-                                <li class="list-group-item lang-switch-item">
-                                    <a href="#" data-action="langswitch" data-lang="{{code}}" class="lang-switch-btn btn">{{text}}</a></li>
-                            {{/each}}
-                        </ul>
+                        {{> langSwitch}}
                     </li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-
-                </ul>
-
             </div>
 
         </div>

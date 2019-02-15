@@ -1,0 +1,7 @@
+<template name="langSwitch">
+    <ul class="dropdown-menu" role="menu">
+        {{#each languages}}
+            <a href="#" data-switch-language="{{code}}">{{name}}</a>&nbsp;
+        {{/each}}
+    </ul>
+</template>
