@@ -1,6 +1,6 @@
 import {Meteor} from 'meteor/meteor';
 import { i18n } from 'meteor/universe:i18n';
-import { Session } from 'meteor/session'
+import { Session } from 'meteor/session';
 
 if (Meteor.isClient) {
     Meteor.startup(function () {

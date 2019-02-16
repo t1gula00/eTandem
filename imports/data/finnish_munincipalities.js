@@ -1,4 +1,4 @@
-[
+export const FINNISH_MUNICIPALITIES = [
   "Akaa(Swedish:Ackas)",
   "Alajärvi",
   "Alavieska",
@@ -310,4 +310,4 @@
   "Ypäjä",
   "Ähtäri(Swedish:Etseri)",
   "Äänekoski"
-]
+];

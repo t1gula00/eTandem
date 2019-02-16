@@ -2,7 +2,7 @@
 
 // Code imported from https://github.com/zhaber/symbol-enum
 
-let Enum = function() {
+export let Enum = function() {
     let self = this;
     let symbolToName = new Map();
     let names = new Set(arguments);
@@ -73,6 +73,3 @@ let Enum = function() {
 
     Object.freeze(self);
 };
-
-export const LANG_ITEM_TYPE = new Enum('LEARNING', 'TEACHING');
-export const LANG_ITEM_LEVEL = new Enum('A1', 'A2', 'B1', 'B2', 'C1', 'C2');
