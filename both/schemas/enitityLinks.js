@@ -1,5 +1,16 @@
 import {MatchMakeItems} from "../collections/matchMakeItems";
 import {LanguageItems} from "../collections/languageItems";
+import {UserProfiles} from "../collections/userProfiles";
+
+// UserProfiles.addLinks({
+//     user: {
+//         type: 'one',
+//         field: 'userId',
+//         collection: Meteor.users
+//     }
+// });
+
+
 
 MatchMakeItems.addLinks({
     teacher: {
@@ -23,6 +34,10 @@ LanguageItems.addLinks({
 });
 
 Meteor.users.addLinks({
+    // profile : {
+    //     collection: UserProfiles,
+    //     inversedBy: 'user'
+    // },
     learningMatches: {
         collection: MatchMakeItems,
         inversedBy: 'student'

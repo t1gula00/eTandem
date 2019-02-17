@@ -7,9 +7,12 @@
 
     {{> _header}}
 
-    <div class="container-fluid">
-        {{> _sidebarMenu}}
-    </div>
+    {{#if currentUser }}
+        <div class="container-fluid">
+            {{> _sidebarMenu}}
+        </div>
+    {{/if}}
+
     <div class="container-fluid">
         {{> yield}}
     </div>

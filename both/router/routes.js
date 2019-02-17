@@ -8,5 +8,5 @@ Router.route('/dashboard', {
 });
 
 Router.plugin('ensureSignedIn', {
-  only: ['dashboard']
+  except: ['atSignUp', 'atSignIn']
 });

@@ -1,7 +1,9 @@
 AppController = RouteController.extend({
     layoutTemplate: 'generalLayout',
     waitOn: function() {
-        // return this.subscribe('items');
+        this.subscribe('userProfile');
+        this.subscribe('matchMakeItems');
+        this.subscribe('languageItems');
     },
     onAfterAction: function () {
     },

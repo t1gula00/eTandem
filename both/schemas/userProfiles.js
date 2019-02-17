@@ -3,13 +3,20 @@ import {UserProfiles} from "../collections/userProfiles";
 import {FINNISH_MUNICIPALITIES} from "../../imports/data/finnish_munincipalities";
 
 export const UserProfileSchema = new SimpleSchema({
+    userId: {
+        type: String,
+        regEx: SimpleSchema.RegEx.Id,
+        optional: false,
+    },
     firstName: {
         type: String,
-        optional: true
+        optional: false,
+        defaultValue: "defaultValue"
     },
     lastName: {
         type: String,
-        optional: true
+        optional: false,
+        defaultValue: "defaultValue"
     },
     gender: {
         type: String,
@@ -18,7 +25,8 @@ export const UserProfileSchema = new SimpleSchema({
     },
     avatarTitle: {
         type: String,
-        optional: true
+        optional: true,
+        defaultValue: "defaultValue"
     },
     location: {
         type: String,
@@ -33,9 +41,14 @@ export const UserProfileSchema = new SimpleSchema({
 
 /// --- User --- ///
 const User = new SimpleSchema({
-    username: {
+    // username: {
+    //     type: String,
+    //     regEx: /^[a-z0-9A-Z_]{3,15}$/
+    // },
+    hakaId: {
         type: String,
-        regEx: /^[a-z0-9A-Z_]{3,15}$/
+        optional: false,
+        defaultValue: 'Not Set'
     },
     emails: {
         type: [Object]
@@ -52,7 +65,7 @@ const User = new SimpleSchema({
     },
     profile: {
         type: UserProfiles,
-        optional: true
+        optional: false,
     },
     services: {
         type: Object,
