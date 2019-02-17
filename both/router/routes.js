@@ -1,5 +1,8 @@
 Router.route('/', {
-  name: 'home'
+  name: 'intro',
+    action: function () {
+        return Router.go('dashboard');
+    }
 });
 
 Router.route('/dashboard', {
