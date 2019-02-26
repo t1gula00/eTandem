@@ -2,7 +2,7 @@
   "name": "kivako-tandem",
   "private": true,
   "scripts": {
-    "start": "meteor run",
+    "start": "meteor --settings settings.json",
     "test": "meteor test --once --driver-package meteortesting:mocha"
   },
   "dependencies": {
